@@ -8,7 +8,7 @@ def b_click(event):
     if t=='=':
         try:
             res= eval(ent.get())
-            ent.delete(0, tk.END)         #Entry 
+            ent.delete(0, tk.END)          
             ent.insert(tk.END, str(res))
         except Exception:
             ent.delete(0, tk.END)
